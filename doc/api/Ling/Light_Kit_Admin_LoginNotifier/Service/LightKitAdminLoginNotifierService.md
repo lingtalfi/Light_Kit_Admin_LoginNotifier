@@ -22,15 +22,15 @@ Class synopsis
 ==============
 
 
-class <span class="pl-k">LightKitAdminLoginNotifierService</span> extends LightKitAdminStandardServicePlugin implements LightRealformLateServiceRegistrationInterface, LightRealistCustomServiceInterface, PluginInstallerInterface {
+class <span class="pl-k">LightKitAdminLoginNotifierService</span> extends [LightKitAdminStandardServicePlugin](https://github.com/lingtalfi/Light_Kit_Admin/blob/master/doc/api/Ling/Light_Kit_Admin/Service/LightKitAdminStandardServicePlugin.md) implements [LightRealformLateServiceRegistrationInterface](https://github.com/lingtalfi/Light_Realform/blob/master/doc/api/Ling/Light_Realform/Service/LightRealformLateServiceRegistrationInterface.md), [LightRealistCustomServiceInterface](https://github.com/lingtalfi/Light_Realist/blob/master/doc/api/Ling/Light_Realist/Service/LightRealistCustomServiceInterface.md), [PluginInstallerInterface](https://github.com/lingtalfi/Light_PluginInstaller/blob/master/doc/api/Ling/Light_PluginInstaller/PluginInstaller/PluginInstallerInterface.md) {
 
 - Inherited properties
-    - protected Ling\Light\ServiceContainer\LightServiceContainerInterface [LightKitAdminStandardServicePlugin::$container](#property-container) ;
+    - protected [Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) [LightKitAdminStandardServicePlugin::$container](#property-container) ;
     - protected array [LightKitAdminStandardServicePlugin::$options](#property-options) ;
 
 - Inherited methods
     - public LightKitAdminStandardServicePlugin::__construct() : void
-    - public LightKitAdminStandardServicePlugin::setContainer(Ling\Light\ServiceContainer\LightServiceContainerInterface $container) : void
+    - public LightKitAdminStandardServicePlugin::setContainer([Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) $container) : void
     - public LightKitAdminStandardServicePlugin::setOptions(array $options) : void
     - public LightKitAdminStandardServicePlugin::install() : void
     - public LightKitAdminStandardServicePlugin::isInstalled() : bool

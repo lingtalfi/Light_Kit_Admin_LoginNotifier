@@ -22,36 +22,36 @@ Class synopsis
 ==============
 
 
-class <span class="pl-k">LlnConnexionController</span> extends RealAdminPageController implements RouteAwareControllerInterface, LightControllerInterface, LightAwareInterface {
+class <span class="pl-k">LlnConnexionController</span> extends [RealAdminPageController](https://github.com/lingtalfi/Light_Kit_Admin/blob/master/doc/api/Ling/Light_Kit_Admin/Controller/RealAdminPageController.md) implements [RouteAwareControllerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Controller/RouteAwareControllerInterface.md), [LightControllerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Controller/LightControllerInterface.md), [LightAwareInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Core/LightAwareInterface.md) {
 
 - Inherited properties
     - protected string [RealAdminPageController::$iframeSignal](#property-iframeSignal) ;
     - protected array [LightKitAdminController::$route](#property-route) ;
-    - protected Ling\Light\Core\Light [LightController::$light](#property-light) ;
+    - protected [Ling\Light\Core\Light](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Core/Light.md) [LightController::$light](#property-light) ;
 
 - Methods
-    - public [renderList](https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier/blob/master/doc/api/Ling/Light_Kit_Admin_LoginNotifier/Controller/Generated/LlnConnexionController/renderList.md)() : Ling\Light\Http\HttpResponseInterface | string
-    - public [renderForm](https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier/blob/master/doc/api/Ling/Light_Kit_Admin_LoginNotifier/Controller/Generated/LlnConnexionController/renderForm.md)() : string | Ling\Light\Http\HttpResponseInterface
+    - public [renderList](https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier/blob/master/doc/api/Ling/Light_Kit_Admin_LoginNotifier/Controller/Generated/LlnConnexionController/renderList.md)() : [HttpResponseInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md) | string
+    - public [renderForm](https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier/blob/master/doc/api/Ling/Light_Kit_Admin_LoginNotifier/Controller/Generated/LlnConnexionController/renderForm.md)() : string | [HttpResponseInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md)
 
 - Inherited methods
     - public RealAdminPageController::__construct() : void
-    - public RealAdminPageController::render() : string | Ling\Light\Http\HttpResponseInterface
-    - protected RealAdminPageController::processForm(string $realformIdentifier, ?array &$nugget = [], ?array $options = []) : Ling\Chloroform\Form\Chloroform | Ling\Light\Http\HttpResponseInterface
+    - public RealAdminPageController::render() : string | [HttpResponseInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md)
+    - protected RealAdminPageController::processForm(string $realformIdentifier, ?array &$nugget = [], ?array $options = []) : Ling\Chloroform\Form\Chloroform | [HttpResponseInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md)
     - public RealAdminPageController::setOnSuccessIframeSignal(string $iframeSignal) : void
-    - public AdminPageController::renderAdminPage(string $page, ?$params = [], ?Ling\Light_Kit\PageConfigurationUpdator\PageConfUpdator $updator = null) : Ling\Light\Http\HttpResponseInterface
+    - public AdminPageController::renderAdminPage(string $page, ?$params = [], ?Ling\Light_Kit\PageConfigurationUpdator\PageConfUpdator $updator = null) : [HttpResponseInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md)
     - public LightKitAdminController::setRoute(array $route) : void
     - protected LightKitAdminController::getKitAdmin() : Ling\Light_Kit_Admin\Service\LightKitAdminService
     - protected LightKitAdminController::getFlasher() : Ling\Light_Flasher\Service\LightFlasherService
     - protected LightKitAdminController::getUser() : Ling\Light_User\LightWebsiteUser
     - protected LightKitAdminController::getValidWebsiteUser() : Ling\Light_User\LightWebsiteUser
-    - public LightKitAdminController::renderPage(string $page, ?array $dynamicVariables = [], ?Ling\Light_Kit\PageConfigurationUpdator\PageConfUpdator $updator = null) : Ling\Light\Http\HttpResponseInterface
+    - public LightKitAdminController::renderPage(string $page, ?array $dynamicVariables = [], ?Ling\Light_Kit\PageConfigurationUpdator\PageConfUpdator $updator = null) : [HttpResponseInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md)
     - protected LightKitAdminController::getRedirectResponseByRoute(string $route, ?array $urlParams = []) : Ling\Light\Http\HttpRedirectResponse
-    - protected LightKitAdminController::checkRight(string $right) : Ling\Light\Http\HttpResponseInterface | null
+    - protected LightKitAdminController::checkRight(string $right) : [HttpResponseInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md) | null
     - protected LightKitAdminController::checkMicroPermission(string $microPermission) : void
     - protected LightKitAdminController::error(string $msg) : void
-    - public LightController::setLight(Ling\Light\Core\Light $light) : void
-    - protected LightController::getLight() : Ling\Light\Core\Light
-    - protected LightController::getContainer() : Ling\Light\ServiceContainer\LightServiceContainerInterface
+    - public LightController::setLight([Ling\Light\Core\Light](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Core/Light.md) $light) : void
+    - protected LightController::getLight() : [Light](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Core/Light.md)
+    - protected LightController::getContainer() : [LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md)
     - protected LightController::getHttpRequest() : Ling\Light\Http\HttpRequestInterface
     - protected LightController::hasService(string $serviceName) : bool
 
@@ -77,7 +77,7 @@ Methods
 - LightKitAdminController::getFlasher &ndash; Returns a flasher instance.
 - LightKitAdminController::getUser &ndash; Returns the current user.
 - LightKitAdminController::getValidWebsiteUser &ndash; Returns a valid website user, or throws an exception.
-- LightKitAdminController::renderPage &ndash; Renders the given page using the kit service.
+- LightKitAdminController::renderPage &ndash; Renders the given page using the [kit service](https://github.com/lingtalfi/Light_Kit).
 - LightKitAdminController::getRedirectResponseByRoute &ndash; Creates and returns an HttpRedirectResponse, based on the given arguments.
 - LightKitAdminController::checkRight &ndash; Ensures that the current user is connected and has the right provided in the arguments.
 - LightKitAdminController::checkMicroPermission &ndash; redirects to the access_denied page.

@@ -16,7 +16,7 @@ Description
 ================
 
 
-public [LlnConnexionController::renderList](https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier/blob/master/doc/api/Ling/Light_Kit_Admin_LoginNotifier/Controller/Generated/LlnConnexionController/renderList.md)() : Ling\Light\Http\HttpResponseInterface | string
+public [LlnConnexionController::renderList](https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier/blob/master/doc/api/Ling/Light_Kit_Admin_LoginNotifier/Controller/Generated/LlnConnexionController/renderList.md)() : [HttpResponseInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md) | string
 
 
 
@@ -35,7 +35,7 @@ This method has no parameters.
 Return values
 ================
 
-Returns Ling\Light\Http\HttpResponseInterface | string.
+Returns [HttpResponseInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md) | string.
 
 
 Exceptions thrown
