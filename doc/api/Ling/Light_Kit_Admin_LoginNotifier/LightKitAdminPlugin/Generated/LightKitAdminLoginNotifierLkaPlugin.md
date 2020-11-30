@@ -1,0 +1,62 @@
+[Back to the Ling/Light_Kit_Admin_LoginNotifier api](https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier/blob/master/doc/api/Ling/Light_Kit_Admin_LoginNotifier.md)
+
+
+
+The LightKitAdminLoginNotifierLkaPlugin class
+================
+2020-11-30 --> 2020-11-30
+
+
+
+
+
+
+Introduction
+============
+
+The LightKitAdminLoginNotifierLkaPlugin class.
+
+
+
+Class synopsis
+==============
+
+
+class <span class="pl-k">LightKitAdminLoginNotifierLkaPlugin</span> extends BaseLightKitAdminPlugin implements LightKitAdminPluginInterface {
+
+- Inherited properties
+    - protected string [BaseLightKitAdminPlugin::$optionsFile](#property-optionsFile) ;
+
+- Inherited methods
+    - public BaseLightKitAdminPlugin::__construct() : void
+    - public BaseLightKitAdminPlugin::getPluginOptions() : array
+    - public BaseLightKitAdminPlugin::setOptionsFile(string $file) : void
+
+}
+
+
+
+
+
+
+Methods
+==============
+
+- BaseLightKitAdminPlugin::__construct &ndash; Builds the BaseLightKitAdminPlugin instance.
+- BaseLightKitAdminPlugin::getPluginOptions &ndash; Returns the options of this kit admin plugin.
+- BaseLightKitAdminPlugin::setOptionsFile &ndash; Sets the file.
+
+
+
+
+
+Location
+=============
+Ling\Light_Kit_Admin_LoginNotifier\LightKitAdminPlugin\Generated\LightKitAdminLoginNotifierLkaPlugin<br>
+See the source code of [Ling\Light_Kit_Admin_LoginNotifier\LightKitAdminPlugin\Generated\LightKitAdminLoginNotifierLkaPlugin](https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier/blob/master/LightKitAdminPlugin/Generated/LightKitAdminLoginNotifierLkaPlugin.php)
+
+
+
+SeeAlso
+==============
+Previous class: [LightKitAdminLoginNotifierControllerHubHandler](https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier/blob/master/doc/api/Ling/Light_Kit_Admin_LoginNotifier/ControllerHub/Generated/LightKitAdminLoginNotifierControllerHubHandler.md)<br>Next class: [LightKitAdminLoginNotifierService](https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier/blob/master/doc/api/Ling/Light_Kit_Admin_LoginNotifier/Service/LightKitAdminLoginNotifierService.md)<br>
