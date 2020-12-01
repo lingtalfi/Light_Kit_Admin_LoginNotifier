@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ling\Light_Kit_Admin_LoginNotifier\ControllerHub\Generated;
+namespace Ling\Light_Kit_Admin_LoginNotifier\Light_ControllerHub\Generated;
 
 
 use Ling\Light\Http\HttpRequestInterface;

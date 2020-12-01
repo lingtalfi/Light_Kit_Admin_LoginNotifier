@@ -1,6 +1,6 @@
 Light_Kit_Admin_LoginNotifier
 ===========
-2020-11-30
+2020-11-30 -> 2020-12-01
 
 
 
@@ -73,19 +73,6 @@ $bmenu.methods_collection:
         
     
 
-$controller_hub.methods_collection: 
-    - 
-        method: registerHandler
-        args: 
-            plugin: Light_Kit_Admin_LoginNotifier
-            handler: 
-                instance: Ling\Light_Kit_Admin_LoginNotifier\ControllerHub\Generated\LightKitAdminLoginNotifierControllerHubHandler
-                methods: 
-                    setContainer: 
-                        container: @container()
-                    
-                
-            
         
     
 
@@ -113,7 +100,6 @@ $micro_permission.methods_collection:
         
     
 
-
 ```
 
 
@@ -121,6 +107,10 @@ $micro_permission.methods_collection:
 History Log
 =============
 
+- 1.0.2 -- 2020-12-01
+
+    - update plugin to accommodate latest Light_ControllerHub api
+    
 - 1.0.1 -- 2020-11-30
 
     - add docTool generated doc

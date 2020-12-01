@@ -197,7 +197,7 @@ rendering:
                         text: Edit
                         url_params_add_ric: true
                         url_params: 
-                            plugin: Light_Kit_Admin_LoginNotifier
+                            plugin: Ling/Light_Kit_Admin_LoginNotifier
                             controller: Generated/LlnConnexionController
                             m: f
                         
@@ -251,7 +251,7 @@ rendering:
     related_links: 
         - 
             text: "Add new \"connexion\" item"
-            url: REALIST(Light_Realist, route, lch_route-hub, {plugin: Light_Kit_Admin_LoginNotifier, controller: Generated/LlnConnexionController, m:f})
+            url: REALIST(Light_Realist, route, lch_route-hub, {plugin: Ling/Light_Kit_Admin_LoginNotifier, controller: Generated/LlnConnexionController, m:f})
             icon: fas fa-plus-circle
         
     

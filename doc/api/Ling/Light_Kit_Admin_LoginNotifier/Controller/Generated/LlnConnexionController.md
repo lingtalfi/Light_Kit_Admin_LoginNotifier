@@ -4,7 +4,7 @@
 
 The LlnConnexionController class
 ================
-2020-11-30 --> 2020-11-30
+2020-11-30 --> 2020-12-01
 
 
 
@@ -101,4 +101,4 @@ See the source code of [Ling\Light_Kit_Admin_LoginNotifier\Controller\Generated\
 
 SeeAlso
 ==============
-Next class: [LightKitAdminLoginNotifierControllerHubHandler](https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier/blob/master/doc/api/Ling/Light_Kit_Admin_LoginNotifier/ControllerHub/Generated/LightKitAdminLoginNotifierControllerHubHandler.md)<br>
+Next class: [LightKitAdminLoginNotifierLkaPlugin](https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier/blob/master/doc/api/Ling/Light_Kit_Admin_LoginNotifier/LightKitAdminPlugin/Generated/LightKitAdminLoginNotifierLkaPlugin.md)<br>

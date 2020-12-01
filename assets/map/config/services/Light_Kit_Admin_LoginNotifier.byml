@@ -28,19 +28,6 @@ $bmenu.methods_collection:
         
     
 
-$controller_hub.methods_collection: 
-    - 
-        method: registerHandler
-        args: 
-            plugin: Light_Kit_Admin_LoginNotifier
-            handler: 
-                instance: Ling\Light_Kit_Admin_LoginNotifier\ControllerHub\Generated\LightKitAdminLoginNotifierControllerHubHandler
-                methods: 
-                    setContainer: 
-                        container: @container()
-                    
-                
-            
         
     
 
