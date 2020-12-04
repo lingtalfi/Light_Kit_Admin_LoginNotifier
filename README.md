@@ -107,6 +107,10 @@ $micro_permission.methods_collection:
 History Log
 =============
 
+- 1.0.3 -- 2020-12-04
+
+    - Add lpi-deps.byml file
+
 - 1.0.2 -- 2020-12-01
 
     - update plugin to accommodate latest Light_ControllerHub api
