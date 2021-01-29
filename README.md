@@ -1,6 +1,6 @@
 Light_Kit_Admin_LoginNotifier
 ===========
-2020-11-30 -> 2020-12-01
+2020-11-30 -> 2021-01-29
 
 
 
@@ -53,14 +53,7 @@ kit_admin_login_notifier:
 
 # --------------------------------------
 # hooks
-# --------------------------------------
-$plugin_installer.methods_collection: 
-    - 
-        method: registerPlugin
-        args: 
-            plugin: Light_Kit_Admin_LoginNotifier
-            installer: @service(kit_admin_login_notifier)
-        
+# --------------------------------------        
     
 
 $bmenu.methods_collection: 
@@ -107,9 +100,13 @@ $micro_permission.methods_collection:
 History Log
 =============
 
+- 1.0.5 -- 2021-01-29
+
+    - adapt to work with new Light_PluginInstaller api
+  
 - 1.0.4 -- 2020-12-08
 
-    - Fix lpi-deps not using natsort.
+    - Fix lpi-deps not using natsort
 
 - 1.0.3 -- 2020-12-04
 
