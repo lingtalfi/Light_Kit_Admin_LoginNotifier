@@ -1,6 +1,6 @@
 Light_Kit_Admin_LoginNotifier
 ===========
-2020-11-30 -> 2021-03-05
+2020-11-30 -> 2021-03-09
 
 
 
@@ -105,6 +105,10 @@ $micro_permission.methods_collection:
 History Log
 =============
 
+- 1.0.7 -- 2021-03-09
+
+    - update planet to adapt Ling.Light_Kit_Admin:0.12.25
+  
 - 1.0.6 -- 2021-03-05
 
     - update README.md, add install alternative
