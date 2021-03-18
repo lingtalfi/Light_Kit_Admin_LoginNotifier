@@ -1,6 +1,6 @@
 Ling/Light_Kit_Admin_LoginNotifier
 ================
-2020-11-30 --> 2021-03-15
+2020-11-30 --> 2021-03-18
 
 
 
@@ -27,6 +27,10 @@ Table of contents
     - [LightKitAdminLoginNotifierControllerHubHandler::handle](https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier/blob/master/doc/api/Ling/Light_Kit_Admin_LoginNotifier/Light_ControllerHub/Generated/LightKitAdminLoginNotifierControllerHubHandler/handle.md) &ndash; Process the given controllerIdentifier and returns an appropriate http response.
     - LightBaseControllerHubHandler::__construct &ndash; Builds the LightKitAdminControllerHubHandler instance.
     - LightBaseControllerHubHandler::setContainer &ndash; Sets the light service container interface.
+- [LightKitAdminLoginNotifierPlanetInstaller](https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier/blob/master/doc/api/Ling/Light_Kit_Admin_LoginNotifier/Light_PlanetInstaller/LightKitAdminLoginNotifierPlanetInstaller.md) &ndash; The LightKitAdminLoginNotifierPlanetInstaller class.
+    - [LightKitAdminLoginNotifierPlanetInstaller::onMapCopyAfter](https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier/blob/master/doc/api/Ling/Light_Kit_Admin_LoginNotifier/Light_PlanetInstaller/LightKitAdminLoginNotifierPlanetInstaller/onMapCopyAfter.md) &ndash; This hook is executed during an [install](https://github.com/lingtalfi/TheBar/blob/master/discussions/import-install.md#summary).
+    - LightBasePlanetInstaller::__construct &ndash; Builds the LightBasePlanetInstaller instance.
+    - LightBasePlanetInstaller::setContainer &ndash; Sets the light service container interface.
 - [LightKitAdminLoginNotifierPluginInstaller](https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier/blob/master/doc/api/Ling/Light_Kit_Admin_LoginNotifier/Light_PluginInstaller/LightKitAdminLoginNotifierPluginInstaller.md) &ndash; The LightKitAdminLoginNotifierPluginInstaller class.
     - LightKitAdminBasePortPluginInstallerWithDatabase::__construct &ndash; Builds the LightKitAdminBasePluginInstallerWithDatabase instance.
     - LightKitAdminBasePortPluginInstallerWithDatabase::install &ndash; Installs the plugin in the light application.
@@ -43,9 +47,12 @@ Table of contents
 
 Dependencies
 ============
+- [BabyYaml](https://github.com/lingtalfi/BabyYaml)
+- [CliTools](https://github.com/lingtalfi/CliTools)
 - [Light](https://github.com/lingtalfi/Light)
 - [Light_ControllerHub](https://github.com/lingtalfi/Light_ControllerHub)
 - [Light_Kit](https://github.com/lingtalfi/Light_Kit)
 - [Light_Kit_Admin](https://github.com/lingtalfi/Light_Kit_Admin)
+- [Light_PlanetInstaller](https://github.com/lingtalfi/Light_PlanetInstaller)
 
 
