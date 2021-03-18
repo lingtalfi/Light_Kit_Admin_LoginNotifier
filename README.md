@@ -90,6 +90,10 @@ $kit_admin.methods_collection:
 History Log
 =============
 
+- 1.0.11 -- 2021-03-18
+
+    - fix service config using undesirable bmenu snippet
+  
 - 1.0.10 -- 2021-03-18
 
     - fix bmenu items not requiring admin rights
