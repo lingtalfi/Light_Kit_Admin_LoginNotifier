@@ -75,3 +75,9 @@
     - Ling:Light_ControllerHub:1.2.14+
     - Ling:Light_Kit:1.17.7+
     - Ling:Light_Kit_Admin:0.12.27+
+
+1.0.12: 
+    - Ling:Light:0.70.1+
+    - Ling:Light_ControllerHub:1.2.14+
+    - Ling:Light_Kit:1.17.7+
+    - Ling:Light_Kit_Admin:0.12.33+

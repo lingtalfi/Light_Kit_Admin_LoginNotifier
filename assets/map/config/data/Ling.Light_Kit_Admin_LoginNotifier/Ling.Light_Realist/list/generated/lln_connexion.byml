@@ -252,7 +252,7 @@ rendering:
     related_links: 
         - 
             text: "Add new \"connexion\" item"
-            url: REALIST(Light_Realist, route, lch_route-hub, {plugin: Ling/Light_Kit_Admin_LoginNotifier, controller: Generated/LlnConnexionController, m:f})
+            url: REALIST(Ling.Light_Realist, route, lch_route-hub, {plugin: Ling/Light_Kit_Admin_LoginNotifier, controller: Generated/LlnConnexionController, m:f})
             icon: fas fa-plus-circle
         
     

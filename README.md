@@ -1,6 +1,6 @@
 Light_Kit_Admin_LoginNotifier
 ===========
-2020-11-30 -> 2021-03-18
+2020-11-30 -> 2021-03-23
 
 
 
@@ -90,6 +90,10 @@ $kit_admin.methods_collection:
 History Log
 =============
 
+- 1.0.12 -- 2021-03-23
+
+    - adapt api to Ling.Light_Realist:2.0.15
+  
 - 1.0.11 -- 2021-03-18
 
     - fix service config using undesirable bmenu snippet
