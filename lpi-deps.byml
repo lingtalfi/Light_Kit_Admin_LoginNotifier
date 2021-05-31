@@ -88,3 +88,10 @@
     - Ling:Light_Kit:1.18.3
     - Ling:Light_Kit_Admin:0.12.40
     - Ling:Light_UserDatabase:1.31.20
+
+1.0.14: 
+    - Ling:Light:0.70.6
+    - Ling:Light_ControllerHub:1.3.4
+    - Ling:Light_Kit:1.18.4
+    - Ling:Light_Kit_Admin:0.12.41
+    - Ling:Light_UserDatabase:1.31.21
