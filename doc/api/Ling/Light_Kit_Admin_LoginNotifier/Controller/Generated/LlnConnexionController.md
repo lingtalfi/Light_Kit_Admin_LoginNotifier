@@ -105,4 +105,4 @@ See the source code of [Ling\Light_Kit_Admin_LoginNotifier\Controller\Generated\
 
 SeeAlso
 ==============
-Next class: [LightKitAdminLoginNotifierLkaPlugin](https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier/blob/master/doc/api/Ling/Light_Kit_Admin_LoginNotifier/LightKitAdminPlugin/Generated/LightKitAdminLoginNotifierLkaPlugin.md)<br>
+Next class: [LightKitAdminLoginNotifierControllerHubHandler](https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier/blob/master/doc/api/Ling/Light_Kit_Admin_LoginNotifier/Light_ControllerHub/Generated/LightKitAdminLoginNotifierControllerHubHandler.md)<br>

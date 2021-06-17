@@ -82,6 +82,10 @@ $kit_admin.methods_collection:
 History Log
 =============
 
+- 1.0.16 -- 2021-06-17
+
+    - checkpoint commit
+  
 - 1.0.15 -- 2021-06-17
 
     - switch to micro-permission open registration system
