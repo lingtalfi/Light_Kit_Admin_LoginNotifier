@@ -54,24 +54,6 @@ kit_admin_login_notifier:
         setContainer: 
             container: @container()
         
-    
-
-# --------------------------------------
-# hooks
-# --------------------------------------
-$kit_admin.methods_collection: 
-    - 
-        method: registerPlugin
-        args: 
-            pluginName: Light_Kit_Admin_LoginNotifier
-            plugin: 
-                instance: Ling\Light_Kit_Admin_LoginNotifier\LightKitAdminPlugin\Generated\LightKitAdminLoginNotifierLkaPlugin
-                methods: 
-                    setOptionsFile: 
-                        file: ${app_dir}/config/data/Ling.Light_Kit_Admin_LoginNotifier/Ling.Light_Kit_Admin/lka-options.generated.byml
-                    
-                
-            
         
     
 
@@ -82,6 +64,10 @@ $kit_admin.methods_collection:
 History Log
 =============
 
+- 1.0.17 -- 2021-06-17
+
+    - update service snippet in README.md
+  
 - 1.0.16 -- 2021-06-17
 
     - checkpoint commit
