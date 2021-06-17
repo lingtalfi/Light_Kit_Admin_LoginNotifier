@@ -9,14 +9,6 @@ kit_admin_login_notifier:
 # --------------------------------------
 # hooks
 # --------------------------------------
-$micro_permission.methods_collection: 
-    - 
-        method: registerMicroPermissionsByProfile
-        args: 
-            file: ${app_dir}/config/data/Ling.Light_Kit_Admin_LoginNotifier/Ling.Light_MicroPermission/kit_admin_login_notifier.profile.generated.byml
-        
-    
-
 $kit_admin.methods_collection: 
     - 
         method: registerPlugin

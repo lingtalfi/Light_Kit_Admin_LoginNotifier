@@ -4,7 +4,6 @@ dependencies:
         - Light_ControllerHub
         - Light_Kit
         - Light_Kit_Admin
-        - Light_UserDatabase
     
 
 post_install: 

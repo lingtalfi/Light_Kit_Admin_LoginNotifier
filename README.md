@@ -1,6 +1,6 @@
 Light_Kit_Admin_LoginNotifier
 ===========
-2020-11-30 -> 2021-05-31
+2020-11-30 -> 2021-06-17
 
 
 
@@ -59,14 +59,6 @@ kit_admin_login_notifier:
 # --------------------------------------
 # hooks
 # --------------------------------------
-$micro_permission.methods_collection: 
-    - 
-        method: registerMicroPermissionsByProfile
-        args: 
-            file: ${app_dir}/config/data/Ling.Light_Kit_Admin_LoginNotifier/Ling.Light_MicroPermission/kit_admin_login_notifier.profile.generated.byml
-        
-    
-
 $kit_admin.methods_collection: 
     - 
         method: registerPlugin
@@ -90,6 +82,10 @@ $kit_admin.methods_collection:
 History Log
 =============
 
+- 1.0.15 -- 2021-06-17
+
+    - switch to micro-permission open registration system
+  
 - 1.0.14 -- 2021-05-31
 
     - Removing trailing plus in lpi-deps file (to work with Light_PlanetInstaller:2.0.0 api
