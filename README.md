@@ -1,6 +1,6 @@
 Light_Kit_Admin_LoginNotifier
 ===========
-2020-11-30 -> 2021-06-17
+2020-11-30 -> 2021-06-18
 
 
 
@@ -64,6 +64,10 @@ kit_admin_login_notifier:
 History Log
 =============
 
+- 1.0.18 -- 2021-06-18
+
+    - update api to work with Ling.Light_Kit_Admin:0.13.0
+  
 - 1.0.17 -- 2021-06-17
 
     - update service snippet in README.md
